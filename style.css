@@ -125,14 +125,7 @@ main {
     gap: 100px;
 }
 
-/* .hero {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 100px 80px;
-    height: 85vh;
-    gap: 100px;
-} */
+
 .hero img {
     height: calc(100vh - 60px - 50px); 
     object-fit: cover;
