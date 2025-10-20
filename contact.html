@@ -3,24 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Me</title>
+    <title>Contact </title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 </head>
 <body>
 
-    <nav class="navbar">
+    <nav class="nav-bar">
         <div class="logo">
             <a href="index.html"><img src="photo/logo.jpg" alt="logo"></a>
             <a href="index.html"><h1>THOMAS</h1></a>
         </div>
-        <ul class="nav-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="contact.html" class="active">Contact</a></li>
-        </ul>
+
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+        
+        <div class="menu">
+            <ul class="nav-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="projects.html">Projects</a></li>
+              <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
     </nav>
 
     <main class="contact-main">
