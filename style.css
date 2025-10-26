@@ -13,7 +13,7 @@ GENERAL STYLES
 body {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    height: 100vh;
     /* font-family: sans-serif; */
 }
 
@@ -32,7 +32,7 @@ NAV BAR STYLES
     justify-content: space-between;
     align-items: center;
     background: #ffffff;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     font-family: sans-serif;
     padding: 15px 80px;
     position: relative;
@@ -155,14 +155,18 @@ PAGE SPECIFIC STYLES
 *********************************************************************
 */
 
-.about, .projects, .contact {
+.about,
+.projects,
+.contact {
     padding: 100px 60px;
     text-align: center;
     background: #fff;
     border-top: 1px solid #e4e4e4;
 }
 
-.about h2, .projects h2, .contact h2 {
+.about h2,
+.projects h2,
+.contact h2 {
     color: #0078ff;
     font-size: 60px;
     text-align: center;
@@ -184,7 +188,7 @@ PAGE SPECIFIC STYLES
     border-radius: 20px;
     width: 90%;
     max-width: 950px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
@@ -232,7 +236,7 @@ PAGE SPECIFIC STYLES
     margin-top: 50px;
     width: 500px;
     height: 200px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     transition: 0.3s;
 }
 
@@ -265,7 +269,7 @@ PAGE SPECIFIC STYLES
     border-radius: 20px;
     width: 90%;
     max-width: 600px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
@@ -308,17 +312,20 @@ PAGE SPECIFIC STYLES
     font-size: 20px;
 }
 
-/*
-*********************************************************************
+/*********************************************************************
 FOOTER STYLES
 *********************************************************************
 */
 
 .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     background: #eef3ff;
     color: #555;
     font-size: 15px;
+    padding: 20px;
 }
 
 .footer p {
@@ -347,11 +354,15 @@ MEDIA QUERIES
         font-size: 50px;
     }
 
-    .about, .projects, .contact {
+    .about,
+    .projects,
+    .contact {
         padding: 80px 40px;
     }
 
-    .about h2, .projects h2, .contact h2 {
+    .about h2,
+    .projects h2,
+    .contact h2 {
         font-size: 40px;
     }
 }
@@ -374,7 +385,7 @@ MEDIA QUERIES
         width: 250px;
         height: 100%;
         background: #fff;
-        box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+        box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
         transition: right 0.3s ease;
     }
 
@@ -389,7 +400,7 @@ MEDIA QUERIES
         border-bottom: 1px solid #eee;
     }
 
-    #menu-toggle:checked ~ .menu {
+    #menu-toggle:checked~.menu {
         right: 0;
     }
 
@@ -425,16 +436,21 @@ MEDIA QUERIES
         width: 100%;
     }
 
-    .about-card, .contact-card {
+    .about-card,
+    .contact-card {
         width: 100%;
         padding: 30px;
     }
 
-    .about, .projects, .contact {
+    .about,
+    .projects,
+    .contact {
         padding: 60px 20px;
     }
 
-    .about h2, .projects h2, .contact h2 {
+    .about h2,
+    .projects h2,
+    .contact h2 {
         font-size: 30px;
     }
 }
