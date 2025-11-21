@@ -27,7 +27,7 @@ Link: https://temesgen-geta.vercel.app/
 ## 🛠️ Technologies Used
 
 - **HTML5**  
-- **CSS3 / Tailwind / SCSS** (update based on your setup)
+- **CSS3
 -  **Font Awesome Icons**
   
 ---
