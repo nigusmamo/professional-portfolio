@@ -7,7 +7,7 @@ It is designed with a clean UI, smooth UX, and a modern look to represent my pro
 ---
 
 ## 🚀 Live Demo
- https://temesgen-geta.vercel.app/
+Link: https://temesgen-geta.vercel.app/
 
  
 ---
