@@ -86,13 +86,11 @@ main {
 
 .nav-links a:hover {
     color: red;
-    border-bottom: 2px solid #007bff;
 }
 
 .nav-links a.active {
     color: #007bff;
     font-weight: 700;
-    border-bottom: 2px solid #007bff;
 }
 
 #menu-toggle {
